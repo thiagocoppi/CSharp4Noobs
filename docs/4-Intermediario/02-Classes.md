@@ -122,7 +122,7 @@ public class Combustivel
   public string TipoCombustivel { get; set; }
 }
 
-// Abaixo a criação de uma classe que exige quem for passado por parâmetro tenha uma herança de combustível
+// Abaixo a criação de uma classe que exige quem for passado por parâmetro tenha uma herança de Combustivel
 public sealed class Motor<TCombustivel> where TCombustivel : Combustivel
 {  
     Ligar(TCombustivel combustivel) 
